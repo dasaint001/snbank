@@ -85,7 +85,7 @@ def staff_login():
             print("Invalid")
 
 
-def program():
+def staff_option():
     while True:
         try:
             print("1 Staff Login\n""2 Close App\n")
@@ -103,4 +103,4 @@ def program():
             print("Invalid Input")
 
 
-program()
+staff_option()
