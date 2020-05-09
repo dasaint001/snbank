@@ -96,7 +96,7 @@ def staff_option():
             else:
                 if choice == "C":
                     break
-                if choice == "L" or "C":
+                if choice != "L" or "C":
                     print("Invalid Command. Please try again..")
 
         except ValueError:
